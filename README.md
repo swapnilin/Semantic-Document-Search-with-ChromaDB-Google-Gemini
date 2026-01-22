@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a local vector database for semantic search. We take a collection of text files, break them into manageable "chunks" using a smart splitting strategy, convert them into mathematical vectors using **Google Gemini**, and store them in **ChromaDB** for lightning-fast retrieval.
 
-## 🚀 What we do in this exercise
+## Goal:
 1.  **Environment Setup:** Configuring Python to talk to Google's Generative AI servers securely.
 2.  **Data Ingestion:** Loading raw `.txt` files from a local directory.
 3.  **Smart Chunking:** Using `RecursiveCharacterTextSplitter` to slice documents into segments while preserving context through "overlap."
@@ -12,7 +12,7 @@ This project demonstrates how to build a local vector database for semantic sear
 
 ---
 
-## 🛠 Requirements
+## Requirements:
 
 ### 1. Libraries & Dependencies
 You will need the following Python packages:
@@ -26,7 +26,7 @@ You must have a valid API Key from [Google AI Studio](https://aistudio.google.co
 
 ---
 
-## 📋 Steps to Run
+## Steps to Run
 
 ### Step 1: Install Dependencies
 Run the following command in your terminal or a notebook cell:
